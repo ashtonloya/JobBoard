@@ -1,0 +1,619 @@
+﻿h2 {
+    padding-top: 75px;
+    padding-left: 50px;
+}
+
+div.col-md-4 {
+    padding-left: 50px;
+}
+
+about#Email.form-control.valid {
+    padding-right: 100px;
+}
+
+div.col-md-offset-2.col-md-11 {
+    padding-left: 50px;
+}
+
+input.bn.btn-outline-success {
+    padding-left: 50px;
+}
+
+form {
+    padding-top: 75px;
+}
+
+    form.form-horizontal {
+        padding-top: 100px;
+    }
+
+/*table.table a#1 {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}*/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+thead {
+    color: gray;
+}
+
+tr.odd {
+    color: royalblue;
+}
+
+*.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 15);
+}
+
+.table tbody tr {
+    background-color: royalblue;
+    text-align: left;
+    font-weight: bold;
+}
+
+.cotent th,
+.table td {
+    padding: 12px 15px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+p {
+    padding-top: 25px;
+}
+
+a {
+    padding-left: 25px;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:nth-last-of-type(n+2) {
+    border-bottom: 2px solid black;
+}
+
+.table tbody tr.active-row {
+    font-weight: bold;
+    color: black;
+}
+
+nav.mx-auto.site-navigation {
+    padding: 20px 20px 0px 20px !important;
+    color: gray;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+nav {
+    position: fixed;
+}
+
+ul.sit-menu.js-clone-nav.d-none.d-xl-block.ml-0.pl-0 {
+    padding-bottom: 150px;
+}
+
+a#registerLink {
+    color: gray;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#mainContent {
+    min-height: 87vh;
+    width: 90%;
+    margin: auto;
+}
+
+a.main-button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+    a.main-button:hover {
+        background-color: royalblue;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    a.main-button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+input.main-button {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+    input.main-button:hover {
+        background-color: royalblue;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    input.main-button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+div.col-md-12 {
+    padding-bottom: 25px;
+}
+
+body#top {
+    padding-top: 150px;
+    background-color: whitesmoke;
+}
+
+div.ContactContainer {
+    border: 3px solid royalblue;
+    box-shadow: 1em 1em grey;
+    padding: 1em;
+}
+
+a#1 {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+/*---------*/
+
+/*Personal stylesheet for my styles and to override any template or 3rd party styles.*/
+.footer {
+    width: 80%;
+    margin: auto;
+}
+
+#footer {
+    padding-bottom: 0;
+}
+
+#main {
+    /*min-height: 85vh;*/
+    /*used the image on all pages so, min height not required.*/
+}
+
+.section {
+    padding-bottom: 0;
+}
+/*Updated for Centriq.png logo on layout*/
+navbar-brand .logo > img {
+    max-height: 60px;
+    margin-top: 1.5em;
+}
+
+.nav li a.selected {
+    /*text-decoration: underline !important;
+	text-decoration-color: #F1690E !important;*/
+    color: #F1690E !important;
+}
+
+.loginContainer, #searchPanel {
+    border: 3px solid royalblue; /*Orange associated with the template*/
+    box-shadow: 1em 1em gray;
+    padding: 1em;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+input[type="submit"] {
+    font-weight: 700;
+}
+/*Search Panel(s)*/
+#searchPanel {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 3em;
+}
+
+    #searchPanel input[type="text"] {
+        border: 1px solid gray;
+    }
+
+.reset-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: red;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    color: #FFF;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+    .reset-button:hover, .reset-button:focus {
+        background-color: #fff;
+        border: 2px solid red;
+        color: red !important;
+    }
+
+/*MVC Paging Overrides - Optional*/
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.428571429;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #F1690E; /*Orange associated with the template*/
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    z-index: 2;
+    color: #ffffff;
+    cursor: default;
+    background-color: #F1690E; /*Orange associated with the template*/
+    border-color: #F1690E; /*Orange associated with the template*/
+}
+
+/*Custom Cart Information on Layout*/
+.cartCount {
+    width: 50px;
+    padding: 3px;
+    background-color: #F1690E; /*color from the underline in main nav*/
+    border-radius: 50%;
+    color: white !important;
+}
+
+/*Books Details, Create, and Edit Views*/
+#bookContainer {
+    border: 3px solid #F1690E; /*Orange associated with the template*/
+    box-shadow: 1em 1em gray;
+    padding: 1em;
+}
+
+#bookHeader > h3 {
+    float: left;
+    width: 80%;
+}
+
+#bookHeader > p {
+    margin-left: 81%;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: blue;
+}
+
+#bookLeft {
+    float: left;
+    width: 25%;
+}
+
+    #bookLeft img {
+        width: 95%;
+    }
+
+#bookRight {
+    margin-left: 26%;
+}
+
+    #bookRight fieldset {
+        border: 2px solid black;
+        border-radius: 1em;
+        padding: 1em;
+        margin-bottom: 1em;
+        width: 40%;
+    }
+
+    #bookRight legend {
+        border: 2px solid black;
+        border-radius: 1em;
+        padding-left: .5em;
+        font-size: 1em;
+        font-weight: 700;
+        width: 62%
+    }
+
+#bookFooterLeft {
+    float: left;
+    width: 49%;
+}
+
+#bookFooterRight {
+    padding-top: 1em;
+    margin-left: 50%;
+    text-align: right;
+}
+
+/*Create and Edit Views for Books*/
+#bookContainer select,
+#bookContainer input[type="text"],
+#bookContainer input[type="number"] {
+    width: 70%;
+    display: inline-block;
+}
+
+#bookContainer input[type="datetime"] {
+    width: 55%;
+    display: inline-block;
+}
+
+#bookContainer #BookStatusID {
+    width: 230px;
+}
+
+#bookContainer textarea {
+    resize: none;
+    min-height: 10em;
+}
+
+a:hover {
+    color: #F1690E; /*Orange associated with the template*/
+}
+
+/*------*/
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+    .pagination > li {
+        display: inline;
+    }
+
+        .pagination > li > a,
+        .pagination > li > span {
+            position: relative;
+            float: left;
+            padding: 6px 12px;
+            margin-left: -1px;
+            line-height: 1.428571429;
+            text-decoration: none;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+        }
+
+        .pagination > li:first-child > a,
+        .pagination > li:first-child > span {
+            margin-left: 0;
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px;
+        }
+
+        .pagination > li:last-child > a,
+        .pagination > li:last-child > span {
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+
+        .pagination > li > a:hover,
+        .pagination > li > span:hover,
+        .pagination > li > a:focus,
+        .pagination > li > span:focus {
+            background-color: #eeeeee;
+        }
+
+    .pagination > .active > a,
+    .pagination > .active > span,
+    .pagination > .active > a:hover,
+    .pagination > .active > span:hover,
+    .pagination > .active > a:focus,
+    .pagination > .active > span:focus {
+        z-index: 2;
+        color: #ffffff;
+        cursor: default;
+        background-color: #428bca;
+        border-color: #428bca;
+    }
+
+    .pagination > .disabled > span,
+    .pagination > .disabled > a,
+    .pagination > .disabled > a:hover,
+    .pagination > .disabled > a:focus {
+        color: #999999;
+        cursor: not-allowed;
+        background-color: #ffffff;
+        border-color: #dddddd;
+    }
+
+.pagination-lg > li > a,
+.pagination-lg > li > span {
+    padding: 10px 16px;
+    font-size: 18px;
+}
+
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.pagination-sm > li > a,
+.pagination-sm > li > span {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.pager {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none;
+}
+
+    .pager:before,
+    .pager:after {
+        display: table;
+        content: " ";
+    }
+
+    .pager:after {
+        clear: both;
+    }
+
+    .pager:before,
+    .pager:after {
+        display: table;
+        content: " ";
+    }
+
+    .pager:after {
+        clear: both;
+    }
+
+    .pager li {
+        display: inline;
+    }
+
+        .pager li > a,
+        .pager li > span {
+            display: inline-block;
+            padding: 5px 14px;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 15px;
+        }
+
+            .pager li > a:hover,
+            .pager li > a:focus {
+                text-decoration: none;
+                background-color: #eeeeee;
+            }
+
+    .pager .next > a,
+    .pager .next > span {
+        float: right;
+    }
+
+    .pager .previous > a,
+    .pager .previous > span {
+        float: left;
+    }
+
+    .pager .disabled > a,
+    .pager .disabled > a:hover,
+    .pager .disabled > a:focus,
+    .pager .disabled > span {
+        color: #999999;
+        cursor: not-allowed;
+        background-color: #ffffff;
+    }

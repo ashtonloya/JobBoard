@@ -1,0 +1,65 @@
+﻿@model IEnumerable<SAT.DATA.EF.Application>
+
+@{
+    ViewBag.Title = "";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Add new Application", "Create", null, new { @class = "main-button" })
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ApplicationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ManagerNotes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ResumeFilename)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApplicationStatu.StatusName)
+            </th>
+            <th></th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApplicationDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ManagerNotes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ResumeFilename)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApplicationStatu.StatusName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ApplicationId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ApplicationId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ApplicationId })
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $('.table').DataTable();
+        });</script>
+}
